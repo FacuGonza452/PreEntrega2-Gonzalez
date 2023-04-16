@@ -135,7 +135,7 @@ nav a:hover{
 }
 
 #main-html{
-    background-image: url("/img/hombre-puliendo.jpeg");
+    background-image: url("../img/hombre-puliendo.jpeg");
     background-size: cover;
     background-position: center;
     height: 100vh; 
@@ -192,6 +192,10 @@ p{
         animation:fondoanimado 10s infinite;
 }
 
+#galeria{
+    padding: 30px;
+}
+
 #galeria .col-lg4{
     margin:0 px;
     padding: 25 px 
@@ -200,7 +204,7 @@ p{
 #galeria img{
     width: 250px;
     height: 250px;
-    margin: 15px 0px ;
+    margin: 15px 10px ;
 }
 
 #galeria img:hover {
@@ -218,8 +222,9 @@ p{
 .texto-faq h1{
     font-size: 28px;
     text-align: center;
-    padding: 150px;
+    padding: 50px 15px;
     font-weight: 500;
+    font-size: 40px;
     color:#ccc
 }
 .texto-faq p{
@@ -259,6 +264,8 @@ p{
     background-size: 500%;
     animation:fondoanimado 10s infinite;
 }
+
+
 
 .texto-contacto{
     padding:90px 50px
@@ -543,7 +550,7 @@ display: none;
 
 @media (max-width: 768px){
 .texto-bienvenida{
-    font-size:13px;
+    font-size:10px;
 }
 
 #mapa{
@@ -576,4 +583,15 @@ display: none;
     .texto-bienvenida{
         font-size:10px;
     } 
+
+    .seleccionador-vehiculo img{
+        width: 90px; 
+        height: 80px;
+}
+}
+
+@media (max-width:960px){
+    .texto-bienvenida{
+        font-size: 12px;
+    }
 }
